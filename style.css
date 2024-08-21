@@ -1,0 +1,57 @@
+body, html {
+   margin: 0;
+   padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+   color: #fff;
+}
+
+.background-image {
+   background-image: url('./splash.webp');
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+   position: relative;
+}
+
+.text-title {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -100%);
+   color: #fff;
+   font-size: 40px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.text-body {
+   position: absolute;
+   top: 60%; 
+   left: 50%;
+   transform: translate(-50%, 0%);
+   color: #fff;
+   font-size: 18px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(0, 0, 0);
+   background-color: rgba(26, 152, 235, 0.3);
+}
+
+@media (max-width: 600px) {
+   .text-title {
+      font-size: 40px;
+      top: 300px;
+      transform: translate(-50%, -120%);
+   }
+
+   .text-body {
+      font-size: 14px;
+      top: 35%;
+      width: 90%;
+   }
+}

@@ -30,7 +30,7 @@ a:link, a:visited, a:hover, a:active {
 
 .text-body {
    position: absolute;
-   top: 60%; 
+   top: 45%; 
    left: 50%;
    transform: translate(-50%, 0%);
    color: #fff;
